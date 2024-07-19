@@ -12,7 +12,6 @@ const TOKEN_ABI = [
   "function allowance(address owner, address spender) public view returns (uint256)",
   "function approve(address spender, uint256 amount) public returns (bool)",
   "function transferFrom(address sender, address recipient, uint256 amount) public returns (bool)",
-  
   // EIP2612 特定函数
   "function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s) public",
   "function nonces(address owner) public view returns (uint256)",
